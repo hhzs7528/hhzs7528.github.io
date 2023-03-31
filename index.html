@@ -1,186 +1,337 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>A_HUI的博客</title><meta name="author" content="A Hui"><meta name="copyright" content="A Hui"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>A_HUI的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="website">
 <meta property="og:title" content="A_HUI的博客">
 <meta property="og:url" content="https://hhzs7528.github.io/project/index.html">
 <meta property="og:site_name" content="A_HUI的博客">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
 <meta property="article:author" content="A Hui">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/project/img/favicon.png"><link rel="canonical" href="https://hhzs7528.github.io/project/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/project/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
-  root: '/project/',
-  algolia: undefined,
-  localSearch: undefined,
-  translate: undefined,
-  noticeOutdate: undefined,
-  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
-  copy: {
-    success: '复制成功',
-    error: '复制错误',
-    noSupport: '浏览器不支持'
-  },
-  relativeDate: {
-    homepage: false,
-    post: false
-  },
-  runtime: '',
-  date_suffix: {
-    just: '刚刚',
-    min: '分钟前',
-    hour: '小时前',
-    day: '天前',
-    month: '个月前'
-  },
-  copyright: undefined,
-  lightbox: 'fancybox',
-  Snackbar: undefined,
-  source: {
-    justifiedGallery: {
-      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
-      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
-    }
-  },
-  isPhotoFigcaption: false,
-  islazyload: false,
-  isAnchor: false,
-  percent: {
-    toc: true,
-    rightside: false,
-  }
-}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
-  title: 'A_HUI的博客',
-  isPost: false,
-  isHome: true,
-  isHighlightShrink: false,
-  isToc: false,
-  postUpdate: '2023-03-31 10:00:54'
-}</script><noscript><style type="text/css">
-  #nav {
-    opacity: 1
-  }
-  .justified-gallery img {
-    opacity: 1
-  }
-
-  #recent-posts time,
-  #post-meta time {
-    display: inline !important
-  }
-</style></noscript><script>(win=>{
-    win.saveToLocal = {
-      set: function setWithExpiry(key, value, ttl) {
-        if (ttl === 0) return
-        const now = new Date()
-        const expiryDay = ttl * 86400000
-        const item = {
-          value: value,
-          expiry: now.getTime() + expiryDay,
-        }
-        localStorage.setItem(key, JSON.stringify(item))
-      },
-
-      get: function getWithExpiry(key) {
-        const itemStr = localStorage.getItem(key)
-
-        if (!itemStr) {
-          return undefined
-        }
-        const item = JSON.parse(itemStr)
-        const now = new Date()
-
-        if (now.getTime() > item.expiry) {
-          localStorage.removeItem(key)
-          return undefined
-        }
-        return item.value
-      }
-    }
   
-    win.getScript = url => new Promise((resolve, reject) => {
-      const script = document.createElement('script')
-      script.src = url
-      script.async = true
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    })
+    <link rel="alternate" href="/project/atom.xml" title="A_HUI的博客" type="application/atom+xml">
   
-    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
-      const link = document.createElement('link')
-      link.rel = 'stylesheet'
-      link.href = url
-      if (id) link.id = id
-      link.onerror = reject
-      link.onload = link.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        link.onload = link.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(link)
-    })
   
-      win.activateDarkMode = function () {
-        document.documentElement.setAttribute('data-theme', 'dark')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
-        }
-      }
-      win.activateLightMode = function () {
-        document.documentElement.setAttribute('data-theme', 'light')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
-        }
-      }
-      const t = saveToLocal.get('theme')
+    <link rel="shortcut icon" href="/project/favicon.png">
+  
+  
     
-          if (t === 'dark') activateDarkMode()
-          else if (t === 'light') activateLightMode()
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/project/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/project/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/project/" id="logo">A_HUI的博客</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
         
-      const asideStatus = saveToLocal.get('aside-status')
-      if (asideStatus !== undefined) {
-        if (asideStatus === 'hide') {
-          document.documentElement.classList.add('hide-aside')
-        } else {
-          document.documentElement.classList.remove('hide-aside')
-        }
-      }
+          <a class="main-nav-link" href="/project/">Home</a>
+        
+          <a class="main-nav-link" href="/project/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/project/atom.xml" title="RSS 订阅"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://hhzs7528.github.io/project"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-软件设计师（软考）13年上半年上午25题进程资源图" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/project/2023/03/30/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%EF%BC%88%E8%BD%AF%E8%80%83%EF%BC%8913%E5%B9%B4%E4%B8%8A%E5%8D%8A%E5%B9%B4%E4%B8%8A%E5%8D%8825%E9%A2%98%E8%BF%9B%E7%A8%8B%E8%B5%84%E6%BA%90%E5%9B%BE/" class="article-date">
+  <time class="dt-published" datetime="2023-03-30T13:01:25.940Z" itemprop="datePublished">2023-03-30</time>
+</a>
     
-    const detectApple = () => {
-      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
-        document.documentElement.classList.add('apple')
-      }
-    }
-    detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/project/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/project/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/project/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/project/" title="A_HUI的博客"><span class="site-name">A_HUI的博客</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">A_HUI的博客</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/project/2023/03/30/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%EF%BC%88%E8%BD%AF%E8%80%83%EF%BC%8913%E5%B9%B4%E4%B8%8A%E5%8D%8A%E5%B9%B4%E4%B8%8A%E5%8D%8825%E9%A2%98%E8%BF%9B%E7%A8%8B%E8%B5%84%E6%BA%90%E5%9B%BE/" title="软件设计师（软考）13年上半年上午25题26题进程资源图">软件设计师（软考）13年上半年上午25题26题进程资源图</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-30T13:01:25.940Z" title="发表于 2023-03-30 21:01:25">2023-03-30</time></span></div><div class="content">软件设计师（软考）13年上半年上午25题26题进程资源图
-一、资源进程图的化简与判断死锁问题做这种题目首先我们要先明白一句话：资源先分配，然后进程再请求。
-倘若资源中没有资源，那么进程则无法请求到，那么就会出现阻塞状态。
-并且资源分配与请求不能够只是简单的相互抵消。
-二、通过此题目进行理解我们首先先观察图（a）
-首先R1先分配资源，R1一次性将自己的资源全部分配出去了，R1先把资源分配给了P1和P2，导致R1中现在并不存在资源，这时候P2向R1中申请资源，但是由于R1中并没有资源，导致P2一直在等待R1中有资源。所以这时候P2是处于阻塞状态。
-接下来观察R2，R2同样一次性将自己的资源全部分配出去了，导致R2中并没有资源，这也就导致P1向R2请求资源同样请求不到，所以P1也处于阻塞状态。
-所以我们现在发现P1，P2两个进程都处于阻塞状态。那么图（a）这个图就出现了死锁的情况，所以的资源和进程都处理不了。一整个图都不能进行任何化简。（化简其实就是把图中一些线给消去。）
-所以25题我们选择B
-接下来我们来观察图（b）
-还是和图（a）中的分析一样的。资源先分配，然后进程再去请求。
-先看到R1 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/project/2023/03/30/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-30T12:15:05.803Z" title="发表于 2023-03-30 20:15:05">2023-03-30</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/project/2023/03/30/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%EF%BC%88%E8%BD%AF%E8%80%83%EF%BC%8913%E5%B9%B4%E4%B8%8A%E5%8D%8A%E5%B9%B4%E4%B8%8A%E5%8D%8825%E9%A2%98%E8%BF%9B%E7%A8%8B%E8%B5%84%E6%BA%90%E5%9B%BE/">软件设计师（软考）13年上半年上午25题26题进程资源图</a>
+    </h1>
+  
 
-More info: Writing
-Run server1$ hexo server
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="软件设计师（软考）13年上半年上午25题26题进程资源图"><a href="#软件设计师（软考）13年上半年上午25题26题进程资源图" class="headerlink" title="软件设计师（软考）13年上半年上午25题26题进程资源图"></a>软件设计师（软考）13年上半年上午25题26题进程资源图</h2><p><img src="C:\Users\H.Mr\Desktop\软件设计师笔记\图片\image-20230328202922114.png" alt="image-20230328202922114"></p>
+<h5 id="一、资源进程图的化简与判断死锁问题"><a href="#一、资源进程图的化简与判断死锁问题" class="headerlink" title="一、资源进程图的化简与判断死锁问题"></a>一、资源进程图的化简与判断死锁问题</h5><p>做这种题目首先我们要先明白一句话：资源先分配，然后进程再请求。</p>
+<p>倘若资源中没有资源，那么进程则无法请求到，那么就会出现阻塞状态。</p>
+<p>并且资源分配与请求不能够只是简单的相互抵消。</p>
+<h5 id="二、通过此题目进行理解"><a href="#二、通过此题目进行理解" class="headerlink" title="二、通过此题目进行理解"></a>二、通过此题目进行理解</h5><h6 id="我们首先先观察图（a）"><a href="#我们首先先观察图（a）" class="headerlink" title="我们首先先观察图（a）"></a>我们首先先观察图（a）</h6><p><img src="C:\Users\H.Mr\Desktop\软件设计师笔记\图片\image-20230328203405651.png" alt="image-20230328203405651"></p>
+<p>首先R1先分配资源，R1一次性将自己的资源全部分配出去了，R1先把资源分配给了P1和P2，导致R1中现在并不存在资源，这时候P2向R1中申请资源，但是由于R1中并没有资源，导致P2一直在等待R1中有资源。所以这时候P2是处于阻塞状态。</p>
+<p>接下来观察R2，R2同样一次性将自己的资源全部分配出去了，导致R2中并没有资源，这也就导致P1向R2请求资源同样请求不到，所以P1也处于阻塞状态。</p>
+<p>所以我们现在发现P1，P2两个进程都处于阻塞状态。那么图（a）这个图就出现了死锁的情况，所以的资源和进程都处理不了。一整个图都不能进行任何化简。（化简其实就是把图中一些线给消去。）</p>
+<p>所以25题我们选择B</p>
+<h6 id="接下来我们来观察图（b）"><a href="#接下来我们来观察图（b）" class="headerlink" title="接下来我们来观察图（b）"></a>接下来我们来观察图（b）</h6><p><img src="C:\Users\H.Mr\Desktop\软件设计师笔记\图片\image-20230328204430187.png" alt="image-20230328204430187"></p>
+<p>还是和图（a）中的分析一样的。资源先分配，然后进程再去请求。</p>
+<p>先看到R1中，R1先分配，将自己的两个资源一次性全部分配出去了，R1中就没有资源了，这个时候P2来请求R1中的资源请求不到，所以P2现在处于阻塞状态。<br>然后我们现在来看R2，R2先是把自己的资源分配了两个出去，一个给了P2，一个给了P3，自己本身还存在一个资源，这个时候P1来请求R2的一个资源，就能够请求的到，然后P1成功将请求R2资源的那条线消去了，然后P1就能够去处理R1所分配过来的一个资源，处理完成之后，P1就将R1所分配过来的资源归还回去，这个时候R1就有一个资源了。<br>那么一直处于阻塞状态的P2发现R1有了一个资源之后，立刻就能够请求到了，然后将R1中的一个资源拿了过来，P2的请求就结束了，并且再处理完之后将资源归还回去，然后就能够处理R2所分配过来的资源，然后再将R2所分配过来的资源归还回去。<br>完成了上述操作之后，R2中就有两个资源，这时P3来请求一个资源就肯定能够请求的到。并且将分配来的资源处理掉。</p>
+<p>完成一系列操作之后，整张图的线就已经全部消除了。这就是成功化简了，并且没有一个地方出现无法执行的状态，也就是没有出现死锁状态，所以26题我们选择C</p>
+<h6 id="图b图解"><a href="#图b图解" class="headerlink" title="图b图解"></a>图b图解</h6><p>上面可能有些啰嗦，我们用图解直观的来看一下</p>
+<p>1、先是原图</p>
+<p><img src="C:\Users\H.Mr\Desktop\软件设计师笔记\图片\image-20230328210719632.png" alt="image-20230328210719632"></p>
+<p>2、首先分配完成之后，P2去申请R1，发现并能够申请的到，所以P2处于阻塞状态</p>
+<p><img src="C:\Users\H.Mr\Desktop\软件设计师笔记\图片\image-20230328210836218.png" alt="image-20230328210836218"></p>
+<p>3、这个时候由于R2中有一个资源，所以P1能够申请的到，并且将R1分配来的资源处理掉，所以R1中就有一个资源了。这个时候就化简了P1。</p>
+<p><img src="C:\Users\H.Mr\Desktop\软件设计师笔记\图片\image-20230328211210420.png" alt="image-20230328211210420"></p>
+<p>4、这个时候P2就发现了他所申请的R1中有一个资源了，所以阻塞状态解除，并且向R1申请到了资源，并且处理掉R2所分配过来的资源。R2中就有两个资源了。这个时候就化简了P2。</p>
+<p><img src="C:\Users\H.Mr\Desktop\软件设计师笔记\图片\image-20230328211325506.png" alt="image-20230328211325506"></p>
+<p>5、最后R3向R2中请求资源，并且能够请求的到，请求处理完成之后，再去做所分配过来的资源，然后P3也就孤立了，并且将所分配来的资源返还回去，所以R1中有2个资源，R2中有3个资源。</p>
+<p><img src="C:\Users\H.Mr\Desktop\软件设计师笔记\图片\image-20230328211631693.png" alt="image-20230328211631693"></p>
+<p>6、最后完成图像所有操作。</p>
 
-More info: Server
-Generate static files1$ hexo generate
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hhzs7528.github.io/project/2023/03/30/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%EF%BC%88%E8%BD%AF%E8%80%83%EF%BC%8913%E5%B9%B4%E4%B8%8A%E5%8D%8A%E5%B9%B4%E4%B8%8A%E5%8D%8825%E9%A2%98%E8%BF%9B%E7%A8%8B%E8%B5%84%E6%BA%90%E5%9B%BE/" data-id="clfvxjxmw00054g8ehpmi1k6u" data-title="软件设计师（软考）13年上半年上午25题26题进程资源图" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
-More info: Generating
-Deploy to remote sites1$ hexo deploy
 
-More info: Deployment
-</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/project/2023/03/28/%E6%8C%87%E9%92%88%E4%B8%8E%E4%BA%8C%E7%BA%A7%E6%8C%87%E9%92%88%E7%9A%84%E7%90%86%E8%A7%A3/" title="指针与二级指针的理解">指针与二级指针的理解</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-28T01:23:47.271Z" title="发表于 2023-03-28 09:23:47">2023-03-28</time></span></div><div class="content">指针与二级指针的理解一、一句话理解什么是指针指针存放的是数据变量的地址，目的是为了指向数据所在的位置。
-二、理解二级指针二级指针同样也是指向地址，只不过是指向某一个指针的地址。也就是指向指针的指针。所以以此类推，同样拥有三级指针和更高级的指针。
-三、二级指针的作用是什么在我看来，二级指针用的地方是在函数当中，当一个函数需要对所传进来的指针的本身进行操作的话，就需要使用到二级指针。这里面就涉及到了局部变量和作用域的一个概念。
-四、代码演示123456789101112131415161718192021222324252627282930#include &lt;stdio.h&gt;void change(int *p,int *q)&#123;    int temp = *p;    *p = *q;    *q = temp;&#125;void change2(int **p,int **q)&#123;    int* temp = *p;    *p = *q;    *q = temp;&#125;int main()&#123;    int a=10,b=20;    ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/project/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">A Hui</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/project/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/project/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/project/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/project/2023/03/30/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%EF%BC%88%E8%BD%AF%E8%80%83%EF%BC%8913%E5%B9%B4%E4%B8%8A%E5%8D%8A%E5%B9%B4%E4%B8%8A%E5%8D%8825%E9%A2%98%E8%BF%9B%E7%A8%8B%E8%B5%84%E6%BA%90%E5%9B%BE/" title="软件设计师（软考）13年上半年上午25题26题进程资源图">软件设计师（软考）13年上半年上午25题26题进程资源图</a><time datetime="2023-03-30T13:01:25.940Z" title="发表于 2023-03-30 21:01:25">2023-03-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/project/2023/03/30/hello-world/" title="Hello World">Hello World</a><time datetime="2023-03-30T12:15:05.803Z" title="发表于 2023-03-30 20:15:05">2023-03-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/project/2023/03/28/%E6%8C%87%E9%92%88%E4%B8%8E%E4%BA%8C%E7%BA%A7%E6%8C%87%E9%92%88%E7%9A%84%E7%90%86%E8%A7%A3/" title="指针与二级指针的理解">指针与二级指针的理解</a><time datetime="2023-03-28T01:23:47.271Z" title="发表于 2023-03-28 09:23:47">2023-03-28</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/project/archives/2023/03/"><span class="card-archive-list-date">三月 2023</span><span class="card-archive-list-count">3</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">3</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-03-31T02:00:54.073Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By A Hui</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/project/js/utils.js"></script><script src="/project/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+
+  
+    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/project/2023/03/30/hello-world/" class="article-date">
+  <time class="dt-published" datetime="2023-03-30T12:15:05.803Z" itemprop="datePublished">2023-03-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/project/2023/03/30/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hhzs7528.github.io/project/2023/03/30/hello-world/" data-id="clfvxjxmu00034g8eapd1acdw" data-title="Hello World" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-指针与二级指针的理解" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/project/2023/03/28/%E6%8C%87%E9%92%88%E4%B8%8E%E4%BA%8C%E7%BA%A7%E6%8C%87%E9%92%88%E7%9A%84%E7%90%86%E8%A7%A3/" class="article-date">
+  <time class="dt-published" datetime="2023-03-28T01:23:47.271Z" itemprop="datePublished">2023-03-28</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/project/2023/03/28/%E6%8C%87%E9%92%88%E4%B8%8E%E4%BA%8C%E7%BA%A7%E6%8C%87%E9%92%88%E7%9A%84%E7%90%86%E8%A7%A3/">指针与二级指针的理解</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="指针与二级指针的理解"><a href="#指针与二级指针的理解" class="headerlink" title="指针与二级指针的理解"></a>指针与二级指针的理解</h2><h5 id="一、一句话理解什么是指针"><a href="#一、一句话理解什么是指针" class="headerlink" title="一、一句话理解什么是指针"></a>一、一句话理解什么是指针</h5><p>指针存放的是数据变量的地址，目的是为了指向数据所在的位置。</p>
+<h5 id="二、理解二级指针"><a href="#二、理解二级指针" class="headerlink" title="二、理解二级指针"></a>二、理解二级指针</h5><p>二级指针同样也是指向地址，只不过是指向某一个指针的地址。也就是指向指针的指针。所以以此类推，同样拥有三级指针和更高级的指针。</p>
+<h5 id="三、二级指针的作用是什么"><a href="#三、二级指针的作用是什么" class="headerlink" title="三、二级指针的作用是什么"></a>三、二级指针的作用是什么</h5><p>在我看来，二级指针用的地方是在函数当中，当一个函数需要对所传进来的指针的本身进行操作的话，就需要使用到二级指针。这里面就涉及到了局部变量和作用域的一个概念。</p>
+<h5 id="四、代码演示"><a href="#四、代码演示" class="headerlink" title="四、代码演示"></a>四、代码演示</h5><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">change</span><span class="params">(<span class="type">int</span> *p,<span class="type">int</span> *q)</span>&#123;</span><br><span class="line">    <span class="type">int</span> temp = *p;</span><br><span class="line">    *p = *q;</span><br><span class="line">    *q = temp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">change2</span><span class="params">(<span class="type">int</span> **p,<span class="type">int</span> **q)</span>&#123;</span><br><span class="line">    <span class="type">int</span>* temp = *p;</span><br><span class="line">    *p = *q;</span><br><span class="line">    *q = temp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> a=<span class="number">10</span>,b=<span class="number">20</span>;</span><br><span class="line">    <span class="type">int</span>*p,*q;</span><br><span class="line">    p = &amp;a;</span><br><span class="line">    q = &amp;b;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;*p=%d,p=%d\t*q=%d,q=%d\n&quot;</span>,*p,p,*q,q);</span><br><span class="line">    <span class="comment">//    *p=10,p=6356636 *q=20,q=6356632</span></span><br><span class="line">    change(p,q);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;*p=%d,p=%d\t*q=%d,q=%d\n&quot;</span>,*p,p,*q,q);</span><br><span class="line">    <span class="comment">//    *p=20,p=6356636 *q=10,q=6356632</span></span><br><span class="line">    change2(&amp;p,&amp;q);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;*p=%d,p=%d\t*q=%d,q=%d\n&quot;</span>,*p,p,*q,q);</span><br><span class="line">    <span class="comment">//    *p=10,p=6356632 *q=20,q=6356636</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>先创建两个指针</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> a=<span class="number">10</span>,b=<span class="number">20</span>;</span><br><span class="line"><span class="type">int</span> *p,*q;</span><br><span class="line">p = &amp;a;</span><br><span class="line">q = &amp;b;</span><br></pre></td></tr></table></figure>
+
+<p>使用一级指针</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">change</span><span class="params">(<span class="type">int</span> *p,<span class="type">int</span> *q)</span>&#123;</span><br><span class="line">    <span class="type">int</span> temp = *p;</span><br><span class="line">    *p = *q;</span><br><span class="line">    *q = temp;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;*p=%d,p=%d\t*q=%d,q=%d\n&quot;</span>,*p,p,*q,q);</span><br><span class="line"><span class="comment">//    *p=10,p=6356636 *q=20,q=6356632</span></span><br><span class="line">change(p,q);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;*p=%d,p=%d\t*q=%d,q=%d\n&quot;</span>,*p,p,*q,q);</span><br><span class="line"><span class="comment">//    *p=20,p=6356636 *q=10,q=6356632</span></span><br></pre></td></tr></table></figure>
+
+<p>我们可以发现，使用一级指针我们可以做到指针所指向的内容进行交换，但是并不能做到对指针本身进行交换。这就会出现一个问题，我们学到的数据结构链式表里面，有时候需要用到指针，但是只是通过一级指针我们不能够做到将指针进行交换。</p>
+<p>接下来我们再来看一下二级指针</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">change2</span><span class="params">(<span class="type">int</span> **p,<span class="type">int</span> **q)</span>&#123;</span><br><span class="line">    <span class="type">int</span>* temp = *p;</span><br><span class="line">    *p = *q;</span><br><span class="line">    *q = temp;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;*p=%d,p=%d\t*q=%d,q=%d\n&quot;</span>,*p,p,*q,q);</span><br><span class="line"><span class="comment">//    *p=10,p=6356636 *q=20,q=6356632</span></span><br><span class="line">change(p,q);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;*p=%d,p=%d\t*q=%d,q=%d\n&quot;</span>,*p,p,*q,q);</span><br><span class="line"><span class="comment">//    *p=20,p=6356636 *q=10,q=6356632</span></span><br><span class="line">change2(&amp;p,&amp;q);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;*p=%d,p=%d\t*q=%d,q=%d\n&quot;</span>,*p,p,*q,q);</span><br><span class="line"><span class="comment">//    *p=10,p=6356632 *q=20,q=6356636</span></span><br></pre></td></tr></table></figure>
+
+<p>在二级指针操作中，我们成功交换了一级指针，并且同样一级所指向的内容同样也进行了交换。这就可以让我们在进行数据结构中的链式存储中进行交换指针了。</p>
+<p>以上是我对指针的理解。目前还在学习中，如有问题，请各位指出。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hhzs7528.github.io/project/2023/03/28/%E6%8C%87%E9%92%88%E4%B8%8E%E4%BA%8C%E7%BA%A7%E6%8C%87%E9%92%88%E7%9A%84%E7%90%86%E8%A7%A3/" data-id="clfvxjxmq00014g8e3gc60c7t" data-title="指针与二级指针的理解" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/project/archives/2023/03/">三月 2023</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/project/2023/03/30/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%EF%BC%88%E8%BD%AF%E8%80%83%EF%BC%8913%E5%B9%B4%E4%B8%8A%E5%8D%8A%E5%B9%B4%E4%B8%8A%E5%8D%8825%E9%A2%98%E8%BF%9B%E7%A8%8B%E8%B5%84%E6%BA%90%E5%9B%BE/">软件设计师（软考）13年上半年上午25题26题进程资源图</a>
+          </li>
+        
+          <li>
+            <a href="/project/2023/03/30/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/project/2023/03/28/%E6%8C%87%E9%92%88%E4%B8%8E%E4%BA%8C%E7%BA%A7%E6%8C%87%E9%92%88%E7%9A%84%E7%90%86%E8%A7%A3/">指针与二级指针的理解</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 A Hui<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/project/" class="mobile-nav-link">Home</a>
+  
+    <a href="/project/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/project/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/project/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/project/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
